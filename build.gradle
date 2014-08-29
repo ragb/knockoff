@@ -7,7 +7,8 @@ repositories {
 }
 
 dependencies {
-    compile "org.scala-lang:scala-library:2.10.3"
+    compile "org.scala-lang:scala-library-all:2.11.2"
+    compile "com.typesafe.scala-logging:scala-logging_2.11:3.1.0"
     testCompile 'org.scalatest:scalatest_2.10:1.9'
     testCompile files("lib/jtidy-r938.jar")
     testCompile 'junit:junit:4.11'
